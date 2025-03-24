@@ -1,5 +1,4 @@
-import Desafio01.Desenvolvedor;
-import Desafio01.Gerente;
+package Desafio01;
 
 public class Main {
     public static void main(String[] args) {
