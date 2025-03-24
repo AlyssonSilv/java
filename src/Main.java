@@ -1,3 +1,6 @@
+import Desafio01.Desenvolvedor;
+import Desafio01.Gerente;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -7,15 +10,15 @@ public class Main {
         System.out.println("Cargo : " + manager.getCargo());
         System.out.println("Nome : " + manager.getNome());
         System.out.println("Salário : " + manager.getSalario());
-        System.out.println("Bônus do Gerente : " + manager.calcularBonus());
-        System.out.println("Salário total do Gerente com bônus: " + (manager.getSalario() + manager.calcularBonus()));
+        System.out.println("Bônus do Desafio01.Gerente : " + manager.calcularBonus());
+        System.out.println("Salário total do Desafio01.Gerente com bônus: " + (manager.getSalario() + manager.calcularBonus()));
 
         System.out.println("");
 
         System.out.println("Cargo : " + dev.getCargo());
         System.out.println("Nome : " + dev.getNome());
         System.out.println("Salário : " + dev.getSalario());
-        System.out.println("Bônus do Desenvolvedor : " + dev.calcularBonus());
-        System.out.println("Salário total do Desenvolvedor com bônus: " + (dev.getSalario() + dev.calcularBonus()));
+        System.out.println("Bônus do Desafio01.Desenvolvedor : " + dev.calcularBonus());
+        System.out.println("Salário total do Desafio01.Desenvolvedor com bônus: " + (dev.getSalario() + dev.calcularBonus()));
     }
 }

@@ -1,3 +1,5 @@
+package Desafio01;
+
 public abstract class Funcionario { // Tornando a classe abstrata
     private String nome;
     private String cargo;

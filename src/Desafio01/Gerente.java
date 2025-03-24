@@ -1,7 +1,9 @@
+package Desafio01;
+
 public class Gerente extends Funcionario {
 
     public Gerente(String nome, double salario) {
-        super(nome, "Gerente", salario); // Define o cargo diretamente
+        super(nome, "Desafio01.Gerente", salario); // Define o cargo diretamente
     }
 
     @Override
