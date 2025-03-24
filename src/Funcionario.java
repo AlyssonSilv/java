@@ -1,23 +1,30 @@
-public class Funcionario {
-    private String cargo;
+public abstract class Funcionario { // Tornando a classe abstrata
     private String nome;
+    private String cargo;
     private double salario;
 
-    public Funcionario(String cargo, String nome, double salario) {
-        this.cargo = cargo;
+    public Funcionario(String nome, String cargo, double salario) {
         this.nome = nome;
+        this.cargo = cargo;
         this.salario = salario;
-    }
-
-    public String getCargo() {
-        return cargo;
     }
 
     public String getNome() {
         return nome;
     }
 
+    public String getCargo() {
+        return cargo;
+    }
+
     public double getSalario() {
         return salario;
     }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    // Método abstrato para ser implementado nas subclasses
+    public abstract double calcularBonus();
 }
